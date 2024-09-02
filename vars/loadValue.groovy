@@ -1,8 +1,10 @@
-def foradd(String addscript) {
-  def add_content = libraryResource "add/${addscript}"
-  writeFile file: addscript, text: add_content
+def foradd() {
+  def add_content = libraryResource "add/add.sh"
+  writeFile file: add.sh, text: add_content
+  sh "cat add.sh"
 }
-def formul(String mulscript) {
-  def mul_content = libraryResource "mul/${mulscript}"
-  writeFile file: mulscript, text: mul_content
+def formul() {
+  def mul_content = libraryResource "mul/mul.sh"
+  writeFile file: mul.sh, text: mul_content
+  sh "cat mul.sh"
 }
