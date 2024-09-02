@@ -1,4 +1,4 @@
-def call() {
-  def mul_content = libraryResource "mul/mul.sh"
-  writeFile file: "mul.sh", text: mul_content
+def formul(mulscript) {
+  def mul_content = libraryResource "mul.sh"
+  writeFile file: mulscript, text: mul_content
 }
