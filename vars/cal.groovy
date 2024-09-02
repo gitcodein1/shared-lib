@@ -2,7 +2,7 @@ def add(value1,value2) {
   loadAddScript.foradd("add.sh")
   sh "bash add.sh ${value1} ${value2}"
 }
-/*def mul(value1,value2) {
-  loadMulScript("mul.sh")
+def mul(value1,value2) {
+  loadAddScript.formul("mul.sh")
   sh "bash mul.sh ${value1} ${value2}"
-}*/
+}
