@@ -1,5 +1,5 @@
 def call() {
   def content = libraryResource "test.sh"
-  writeFile file: test.sh, text: content
+  writeFile file: test.sh , text: content
   sh "bash test.sh"
 }
