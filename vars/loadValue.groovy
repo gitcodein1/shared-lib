@@ -1,7 +1,7 @@
-def foradd() {
-  def add_content = libraryResource "add.sh"
-  writeFile file: add.sh, text: add_content
-  sh "cat add.sh"
+def foradd(String script) {
+  def add_content = libraryResource "${script}"
+  writeFile file: script, text: add_content
+  sh "cat ${script}"
 }
 /*def formul(String) {
   def mul_content = libraryResource "mul.sh"
