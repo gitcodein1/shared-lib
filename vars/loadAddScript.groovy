@@ -1,4 +1,4 @@
-def call() {
-  def add_content = libraryResource "add/add.sh"
-  writeFile file: add.sh, text: add_content
+def call(String script) {
+  def add_content = libraryResource "add/${script}"
+  writeFile file: script, text: add_content
 }
