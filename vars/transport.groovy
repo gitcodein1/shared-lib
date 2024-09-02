@@ -1,3 +1,3 @@
-def vehicle(Map detail = [:]) {
-  echo "BRAND: ${detail.brand} BIKE:${detail.bike}"
+def 2whlr(Map detail = [:]) {
+  echo "${info.bike} is a ${info.brand} ${info.type}"
 }
