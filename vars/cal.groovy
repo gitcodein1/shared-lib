@@ -1,4 +1,4 @@
-def call(value1, value2) {
+def call(Map values = [:]) {
   loadValue("add.sh")
-  sh "bash add.sh ${value1} ${value2}"
+  sh "bash add.sh ${values.value1} ${values.value2}"
 }
