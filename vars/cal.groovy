@@ -6,5 +6,5 @@ def add(value1,value2) {
 def mul(value1,value2) {
   loadMulScript("mulscript")
   sh "cat mulscript"
-  sh "bash mulscript ${value1} ${value2}"
+  sh "./mulscript ${value1} ${value2}"
 }
