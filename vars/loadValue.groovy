@@ -1,4 +1,4 @@
-def foradd(String) {
+def foradd() {
   def add_content = libraryResource "add.sh"
   writeFile file: add.sh, text: add_content
   sh "cat add.sh"
