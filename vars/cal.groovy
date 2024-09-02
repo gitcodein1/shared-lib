@@ -3,6 +3,6 @@ def add(value1,value2) {
   sh "bash add.sh ${value1} ${value2}"
 }
 def mul(value1,value2) {
-  loadAddScript.formul("mul.sh")
+  loadMulScript.formul("mul.sh")
   sh "bash mul.sh ${value1} ${value2}"
 }
