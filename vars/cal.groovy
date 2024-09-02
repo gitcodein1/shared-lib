@@ -1,4 +1,4 @@
 def addition(value1,value2) {
-  loadValue("add.sh")
+  loadValue.addition("add.sh")
   sh "bash add.sh ${value1} ${value2}"
 }
