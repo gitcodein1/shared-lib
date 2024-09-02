@@ -1,3 +1,3 @@
-def veh(emptyMap = [:]) {
-  echo "BRAND: ${brand} BIKE:${bike}"
+def veh(Map detail = [:]) {
+  echo "BRAND: ${detail.brand} BIKE:${detail.bike}"
 }
