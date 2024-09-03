@@ -1,4 +1,4 @@
-package demo.common
+package org.common
 
 class CommonFuncs {
     def sayHi() {
