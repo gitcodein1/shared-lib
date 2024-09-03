@@ -1,8 +1,8 @@
 def add(value1,value2) {
-  loadAddScript.foradd("addscript")
+  loadScript.foradd("addscript")
   sh "./addscript ${value1} ${value2}"
 }
 def mul(value1,value2) {
-  loadMulScript.formul("mulscript")
+  loadScript.formul("mulscript")
   sh "./mulscript ${value1} ${value2}"
 }
