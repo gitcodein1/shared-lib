@@ -1,7 +1,7 @@
 package org.common
 
 class CommonFuncs {
-    def call() {
+    def say() {
         echo "Hi from CommonFuncs!"
     }
 }
