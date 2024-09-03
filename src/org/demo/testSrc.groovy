@@ -1,6 +1,5 @@
 package org.demo
-
-class demo {
-    def sayHi() {
+def sayHi() {
         echo "Hi from CommonFuncs!"
-    }
+}
+return this
