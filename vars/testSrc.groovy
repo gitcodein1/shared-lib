@@ -1,4 +1,5 @@
+import org.common.Commonfuncs
 def call() {
-    def abc = new org.common.CommonFuncs()
+    def abc = new CommonFuncs(any)
     return abc.say(any)
 }
