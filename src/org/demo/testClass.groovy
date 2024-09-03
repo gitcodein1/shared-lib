@@ -1,6 +1,6 @@
 package org.demo
 
-class CommonFuncs {
+class testClass {
     def sayHi() {
         echo "Hi from CommonFuncs!"
     }
