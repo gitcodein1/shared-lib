@@ -1,5 +1,5 @@
 package org.demo
-def sayHi() {
-        echo "Hi from CommonFuncs!"
+def sayHi(any) {
+        echo "Hi from CommonFuncs!${any}"
 }
 return this
