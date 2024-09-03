@@ -1,0 +1,1 @@
+Function used for Addition and Multiplication
