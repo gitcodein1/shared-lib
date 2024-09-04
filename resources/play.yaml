@@ -5,4 +5,4 @@
       - name: COPY FILE
         copy:
           src: play
-          dest: /home/user101/new/check_script/play.yaml
+          dest: /home/user101/new/play.yaml
