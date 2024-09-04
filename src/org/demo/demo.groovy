@@ -1,8 +1,12 @@
 package org.demo
 
-class demo {
-  def aFunction() {
-    return "Hello from src folder!"
-  }
+class Example {
+   static def DisplayName() {
+      println("This is how methods work in groovy");
+      println("This is an example of a simple method");
+   } 
+	
+   static void main(String[] args) {
+      DisplayName();
+   } 
 }
-return this
