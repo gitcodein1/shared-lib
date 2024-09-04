@@ -2,5 +2,5 @@ import com.demo.demo
 
 def call() {
   def abc = new demo()
-  return sc.()
+  return sc.DisplayName()
 }
