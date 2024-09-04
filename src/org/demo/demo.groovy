@@ -5,3 +5,4 @@ class demo {
     return "Hello from src folder!"
   }
 }
+return this
