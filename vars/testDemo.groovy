@@ -1,6 +1,6 @@
-import org.demo.*
+import org.demo.demo
 
 def call() {
-  def sc = new org.demo.demo()
+  def sc = new demo()
   return sc.aFunction()
 }
