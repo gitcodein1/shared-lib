@@ -1,6 +1,6 @@
 package org.demo
 
-class SrcClass {
+class demo {
   def aFunction() {
     return "Hello from src folder!"
   }
