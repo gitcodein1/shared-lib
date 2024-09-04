@@ -1,6 +1,0 @@
-import org.demo.demo
-
-def call() {
-  def abc = new demo()
-  return sc.DisplayName()
-}
